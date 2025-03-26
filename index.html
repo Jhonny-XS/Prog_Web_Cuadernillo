@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Ejercicios y Prácticas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav">
+            <a href="index.html" class="nav-link active">Inicio</a>
+            <a href="ejercicios.html" class="nav-link">Ejercicios</a>
+            <a href="practicas.html" class="nav-link">Prácticas</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <h1>Bienvenido a Ejercicios y Prácticas elaborados por Jhonny E.H.E</h1>
+        <div class="cards-container">
+            <!-- Tarjeta para Ejercicios -->
+            <a href="ejercicios.html" class="card">
+                <h2>Ejercicios</h2>
+                <p>Explora una lista de ejercicios prácticos para aprender PHP y más.</p>
+            </a>
+            <!-- Tarjeta para Prácticas -->
+            <a href="practicas.html" class="card">
+                <h2>Prácticas</h2>
+                <p>Revisa las prácticas realizadas para profundizar tus conocimientos.</p>
+            </a>
+        </div>
+    </main>
+
+    <!-- JavaScript para el menú hamburguesa -->
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('nav-active');
+            this.classList.toggle('toggle-active');
+        });
+    </script>
+</body>
+</html>

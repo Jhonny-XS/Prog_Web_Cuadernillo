@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 - Introducción a PHP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="ejercicios.html" class="nav-link">Ejercicios</a>
+            <a href="practicas.html" class="nav-link active">Prácticas</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <h1>Práctica 1 - Introducción a PHP</h1>
+
+        <div class="content-section">
+            <h2>¿Quién inventó PHP?</h2>
+            <p>PHP fue creado por Rasmus Lerdorf en 1994. Inicialmente, lo desarrolló como un conjunto de scripts en Perl para monitorear las visitas a su página web personal, pero luego lo reescribió en C y lo lanzó como "Personal Home Page/Forms Interpreter" (PHP/FI) en 1995.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>¿Qué es PHP?</h2>
+            <p>PHP es un lenguaje de programación de código abierto diseñado principalmente para el desarrollo web del lado del servidor. Se utiliza para generar contenido dinámico en páginas web, interactuar con bases de datos, gestionar sesiones, y más. Es ampliamente utilizado en aplicaciones como WordPress, Laravel y Drupal.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>¿Qué significa PHP?</h2>
+            <p>Originalmente, PHP significaba "Personal Home Page", pero con el tiempo evolucionó y ahora es un acrónimo recursivo que significa "PHP: Hypertext Preprocessor" (Preprocesador de Hipertexto).</p>
+        </div>
+
+        <div class="content-section">
+            <h2>¿Cuáles son las diferencias más notables entre JavaScript y PHP?</h2>
+            <ul>
+                <li><b>Ubicación de ejecución:</b> PHP se ejecuta en el servidor (backend), mientras que JavaScript puede ejecutarse tanto en el servidor (con Node.js) como en el navegador (frontend).</li>
+                <li><b>Propósito principal:</b> PHP está orientado al desarrollo web del lado del servidor, como generar HTML dinámico, mientras que JavaScript se diseñó inicialmente para añadir interactividad en el lado del cliente.</li>
+                <li><b>Sintaxis:</b> PHP tiene una sintaxis similar a C, mientras que JavaScript está más influenciado por lenguajes como Java y tiene un enfoque más flexible (por ejemplo, es débilmente tipado).</li>
+                <li><b>Asincronía:</b> JavaScript soporta programación asíncrona de forma nativa (con promesas y async/await), mientras que PHP tradicionalmente es sincrónico, aunque tiene extensiones como Swoole para manejar asincronía.</li>
+                <li><b>Uso con bases de datos:</b> PHP tiene una integración nativa y sencilla con bases de datos como MySQL, mientras que JavaScript requiere bibliotecas adicionales para ello en entornos como Node.js.</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>¿Qué tipo de licencia tiene PHP?</h2>
+            <p>PHP se distribuye bajo la Licencia PHP, que es una licencia de código abierto aprobada por la Open Source Initiative (OSI). Es similar a la licencia BSD, pero incluye una restricción que impide usar el nombre "PHP" para derivados sin permiso.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>¿Dónde podemos encontrar ayuda para PHP?</h2>
+            <ul>
+                <li>La documentación oficial en <a href="https://www.php.net" target="_blank">php.net</a> es el mejor punto de partida, con manuales, ejemplos y funciones detalladas.</li>
+                <li>Foros como Stack Overflow (en español o inglés).</li>
+                <li>Comunidades en redes sociales o plataformas como Reddit (subreddit r/PHP).</li>
+                <li>Tutoriales en sitios como W3Schools, Tutorialspoint o canales de YouTube especializados.</li>
+                <li>Grupos de usuarios locales o meetups sobre PHP.</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>¿Qué necesitamos para trabajar con PHP?</h2>
+            <ul>
+                <li><b>Entorno de desarrollo:</b> Un servidor web (como Apache o Nginx) con PHP instalado. Puedes usar paquetes como XAMPP, WAMP o MAMP para configurarlo fácilmente.</li>
+                <li><b>Editor de código:</b> Como Visual Studio Code, PhpStorm, Sublime Text o Notepad++.</li>
+                <li><b>Base de datos (opcional):</b> MySQL, PostgreSQL u otra, si planeas trabajar con datos persistentes.</li>
+                <li><b>Conocimientos básicos:</b> HTML y CSS son útiles, ya que PHP suele generar contenido web.</li>
+                <li><b>PHP instalado:</b> Puedes descargarlo desde php.net si configuras tu propio entorno.</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>¿Cómo accedemos a nuestro servidor local?</h2>
+            <p>Si se usa un entorno como XAMPP, después de iniciarlo (Apache y MySQL, por ejemplo), se abre un navegador y se escribe <a href="http://localhost" target="_blank">http://localhost</a> o <a href="http://127.0.0.1" target="_blank">http://127.0.0.1</a> en la barra de direcciones. Esto te lleva al directorio raíz del servidor local, donde se puede colocar tus archivos PHP (normalmente en la carpeta htdocs de XAMPP).</p>
+        </div>
+
+        <div class="content-section">
+            <h2>¿Dónde se encuentra la página de inicio de XAMPP?</h2>
+            <p>La página de inicio de XAMPP se encuentra en el directorio raíz del servidor, que por defecto es la carpeta htdocs dentro de la instalación de XAMPP (por ejemplo, C:\xampp\htdocs en Windows). Al acceder a <a href="http://localhost" target="_blank">http://localhost</a> en tu navegador, XAMPP muestra un panel de control o una página de bienvenida predeterminada. Si colocas un archivo como index.php en htdocs, este reemplazará la página por defecto.</p>
+        </div>
+    </main>
+</body>
+</html>

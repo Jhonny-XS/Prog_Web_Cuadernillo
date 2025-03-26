@@ -1,0 +1,16 @@
+Pedido de pizzas
+Nombre: Ana
+Dirección: Av. Rivadavia 456
+Detalles del pedido:
+Napolitana: 3
+Fecha: 2025-03-23 14:32:10
+------------------------
+Pedido de pizzas
+Nombre: Jhonny
+Dirección: Calle bonita #23
+Detalles del pedido:
+Jamón y queso: 4
+Napolitana: 9
+Mozzarella: 4
+Fecha: 2025-03-23 20:20:24
+------------------------

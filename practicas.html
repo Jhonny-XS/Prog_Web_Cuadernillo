@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prácticas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="ejercicios.html" class="nav-link">Ejercicios</a>
+            <a href="practicas.html" class="nav-link active">Prácticas</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <h1>Lista de Prácticas</h1>
+        <div class="cards-container">
+            <a href="Practica_01.html" class="small-card">Práctica 01</a>
+            <a href="Practica_02.html" class="small-card">Práctica 02</a>
+            <a href="Practica_03.html" class="small-card">Práctica 03</a>
+            <a href="Practica_04.html" class="small-card">Práctica 04</a>
+            <a href="Practica_05.php" class="small-card">Práctica 05 - ECHO</a>
+            <a href="Practica_06.php" class="small-card">Práctica 06 - RAND </a>
+            <a href="Practica_07.php" class="small-card">Práctica 07 - TIPOS  DE DATOS</a>
+            <a href="Practica_08.php" class="small-card">Práctica 08 - USO DE VARIABLES </a>
+            <a href="Practica_09.php" class="small-card">Práctica 09 - NÚMERO ALEATORIO</a>
+            <a href="Practica_10.php" class="small-card">Práctica 10 - MULTIPLICACIÓN CON FOR</a>
+            <a href="Practica_11.php" class="small-card">Práctica 11 - FORMULARIO (CONTROLES TEXT Y SUBMIT)</a>
+            <a href="Practica_12.php" class="small-card">Práctica 12 - FORMULARIO (CONTROL RADIO)</a>
+            <a href="Practica_13.php" class="small-card">Práctica 13 - FORMULARIO (CONTROL CHECKBOX)</a>
+            <a href="Practica_14.php" class="small-card">Práctica 14 - FORMULARIO (CONTROL SELECT)</a>
+            <a href="Practica_15.php" class="small-card">Práctica 15 - FORMULARIO (CONTROL TEXTAREA)</a>
+            <a href="Practica_16.php" class="small-card">Práctica 16 - VECTORES (TRADICIONALES)</a>
+            <a href="Practica_17.php" class="small-card">Práctica 17 - CREACIÓN DE UN ARCHIVO DE TEXTO</a>
+            <a href="Practica_18.php" class="small-card">Práctica 18 - LECTURA DE UN ARCHIVO DE TEXTO</a>
+            <a href="Practica_19.php" class="small-card">Práctica 19 - VECTORES (ASOCIATIVOS)</a>
+            <a href="Practica_20.php" class="small-card">Práctica 20 - FUNCIONES</a>
+            <a href="Practica_21.php" class="small-card">Práctica 21 - INSERT (ALTA DE REGISTROS EN UNA TABLA)</a>
+            <a href="Practica_22.php" class="small-card">Práctica 22 - LISTADO (SELECCIÓN DE REGISTROS DE UNA TABLA)</a>
+            <a href="Practica_23.php" class="small-card">Práctica 23 - CONSULTA (SELECCIÓN DE REGISTROS DE UNA TABLA)</a>
+            <a href="Practica_24.php" class="small-card">Práctica 24 - DELETE (BAJA DE UN REGISTRO EN UNA TABLA)</a>
+            <a href="Practica_25.php" class="small-card">Práctica 25 - DELETE (BAJA DE TODOS LOS REGISTROS DE UNA TABLA)</a>
+            <a href="Practica_26.php" class="small-card">Práctica 26 - UPDATE (MODIFICACIÓN DE UN REGISTRO DE UNA TABLA)</a>
+            <a href="Practica_27.php" class="small-card">Práctica 27 - INSERT (Y CONSULTA DE OTRA TABLA)</a>
+            <a href="Practica_28.php" class="small-card">Práctica 28 - LISTADO (SELECCIÓN DE REGISTROS DE VARIAS TABLAS - INNER JOIN)</a>
+
+        </div>
+    </main>
+
+    <!-- JavaScript para el menú hamburguesa -->
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('nav-active');
+            this.classList.toggle('toggle-active');
+        });
+    </script>
+</body>
+</html>
